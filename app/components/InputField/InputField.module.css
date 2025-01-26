@@ -1,0 +1,38 @@
+.inputPanelContainer {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: clamp(300px, 500px, 700px);
+    padding: 15px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 20px;
+    border: #CCCCCC 1px solid;
+    background-color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.inputField {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    font-size: 16px;
+    max-height: 400px;
+    min-height: 1em;
+
+}
+
+.inputField::placeholder {
+    font-size: 16px;
+}
+
+.inputField:focus {
+    outline: none;
+}
+
+.sendUserMessage {
+    margin: 0;
+}

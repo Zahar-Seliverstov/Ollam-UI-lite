@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { continueConversation, Message } from "./actions";
 import { readStreamableValue } from "ai/rsc";
-import InputField from "@/components/InputField";
+import InputField from "@/app/components/InputField/InputField";
 
 export default function Home() {
   const [conversation, setConversation] = useState<Message[]>([]);
